@@ -27,14 +27,13 @@ dotnet restore
 dotnet run
 ```
 
-## API Endpoints
-
-
 ## Running Project
 ### Using Visual Studio
 1. Open the project in Visual Studio.
 2. Set the project Volvo.FleetApi as a startup project
 3. Run.
+
+## API Endpoints
 
 ### Retrieve All Vehicles
 **GET** `https://localhost:7029/vehicle`
