@@ -11,7 +11,7 @@ This project is a Vehicle Management API for Volvo Fleet, built with .NET Core. 
 ## Prerequisites
 Ensure you have the following installed:
 - .NET SDK
-- MySQL database (or another supported database)
+- You don't need MySql, I used a MySQL Instance on AWS.
 
 ## Installation
 1. Clone this repository:
@@ -29,14 +29,21 @@ dotnet run
 
 ## API Endpoints
 
+
+## Running Project
+### Using Visual Studio
+1. Open the project in Visual Studio.
+2. Set the project Volvo.FleetApi as a startup project
+3. Run.
+
 ### Retrieve All Vehicles
-**GET** `/api/vehicle`
+**GET** `https://localhost:7029/vehicle`
 
 ### Get Vehicle by ID
-**GET** `/api/vehicle/{id}`
+**GET** `https://localhost:7029/vehicle/{id}`
 
 ### Create a New Vehicle
-**POST** `/api/vehicle`
+**POST** `https://localhost:7029/vehicle`
 #### Request Body:
 ```json
 {
@@ -48,7 +55,7 @@ dotnet run
 ```
 
 ### Update Vehicle
-**PUT** `/api/vehicle/{id}`
+**PUT** `https://localhost:7029/vehicle/{id}`
 #### Request Body:
 ```json
 {
@@ -66,3 +73,4 @@ dotnet run
 ```sh
 dotnet test
 ```
+
