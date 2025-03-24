@@ -13,6 +13,7 @@ namespace Volvo.Fleet.WebApi.Controllers
         {
             this.vehicleService = vehicleService;
         }
+
         [HttpGet]
         public async Task<List<VehicleDetail>> GetAll()
         {

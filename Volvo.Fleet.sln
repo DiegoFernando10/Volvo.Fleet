@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvo.Fleet.WebApi", "Volvo.Fleet.WebApi\Volvo.Fleet.WebApi.csproj", "{B5C48032-8C50-4489-911B-67691ACF6BAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvo.FleetApi", "Volvo.Fleet.WebApi\Volvo.FleetApi.csproj", "{B5C48032-8C50-4489-911B-67691ACF6BAD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volvo.Fleet.Database", "Volvo.Fleet.Database\Volvo.Fleet.Database.csproj", "{D01F5D88-8DC0-46EC-BEDC-D0F73671369E}"
 EndProject
@@ -26,6 +26,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{27C85D84-1959-4258-9153-76516109257A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{038FDEFB-2450-4AAA-B87E-E5F9598D9174}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{CFD8B0CC-7E48-4BE8-9C8D-062D4F288633}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
