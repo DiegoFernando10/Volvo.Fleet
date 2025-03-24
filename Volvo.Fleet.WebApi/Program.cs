@@ -5,6 +5,7 @@ using Volvo.Fleet.Domain.Services;
 using Volvo.Fleet.Entities;
 using Volvo.Fleet.VehicleService;
 
+var builder = WebApplication.CreateBuilder(args);
 
 var services = builder.Services;
 var configuration = builder.Configuration;
