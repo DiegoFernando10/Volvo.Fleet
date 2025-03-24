@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using Volvo.Fleet.Domain.Enums;
+﻿using Volvo.Fleet.Domain.Enums;
 
 namespace Volvo.Fleet.Domain.Models.Vehicle
 {

@@ -32,6 +32,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{CFD8B0
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvo.Fleet.XUnit", "Volvo.Fleet.XUnit\Volvo.Fleet.XUnit.csproj", "{771A5AA4-6441-49A1-BF9B-4124E442DABD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +68,10 @@ Global
 		{C5371BD0-2A72-45F4-8BB6-029FFF29CB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5371BD0-2A72-45F4-8BB6-029FFF29CB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5371BD0-2A72-45F4-8BB6-029FFF29CB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771A5AA4-6441-49A1-BF9B-4124E442DABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771A5AA4-6441-49A1-BF9B-4124E442DABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771A5AA4-6441-49A1-BF9B-4124E442DABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771A5AA4-6441-49A1-BF9B-4124E442DABD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{FF1D1AEF-92E5-4843-A949-9FDAEAF98121} = {EA683BC5-C4D5-40E3-BC1B-99FF6AC76AA3}
 		{6C5B3CAD-F3A5-43AF-963C-B12EDD5CC297} = {EA683BC5-C4D5-40E3-BC1B-99FF6AC76AA3}
 		{C5371BD0-2A72-45F4-8BB6-029FFF29CB49} = {27C85D84-1959-4258-9153-76516109257A}
+		{771A5AA4-6441-49A1-BF9B-4124E442DABD} = {038FDEFB-2450-4AAA-B87E-E5F9598D9174}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {059EF9EC-A66B-4D84-9187-240249782EEB}

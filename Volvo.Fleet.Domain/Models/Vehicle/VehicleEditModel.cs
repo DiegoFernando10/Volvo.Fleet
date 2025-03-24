@@ -1,7 +1,4 @@
-﻿using System.Xml.Linq;
-using Volvo.Fleet.Domain.Enums;
-
-namespace Volvo.Fleet.Domain.Models.Vehicle
+﻿namespace Volvo.Fleet.Domain.Models.Vehicle
 {
     public class VehicleEditModel
     {
