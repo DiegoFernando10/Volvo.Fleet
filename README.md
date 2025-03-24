@@ -53,6 +53,13 @@ dotnet run
 }
 ```
 
+On **type** you may choose between those enums:
+```
+0 - Bus
+1 - Truck
+2 - Car
+```
+
 ### Update Vehicle
 **PUT** `https://localhost:7029/vehicle/{id}`
 #### Request Body:
