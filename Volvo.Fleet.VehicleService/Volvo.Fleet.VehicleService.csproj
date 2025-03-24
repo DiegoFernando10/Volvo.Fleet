@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.36" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Volvo.Fleet.Domain\Volvo.Fleet.Domain.csproj" />
+    <ProjectReference Include="..\Volvo.Fleet.Entities\Volvo.Fleet.Entities.csproj" />
+    <ProjectReference Include="..\Volvo.Fleet.Extentions\Volvo.Fleet.Extentions.csproj" />
+    <ProjectReference Include="..\Volvo.Fleet.FluentValidation\Volvo.Fleet.FluentValidation.csproj" />
+  </ItemGroup>
+
+</Project>
